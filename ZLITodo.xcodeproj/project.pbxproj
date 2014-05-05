@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C45D89B97F740F48F3AB12B /* libPods-ZLITodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A4CD341C044D938F5D49E3 /* libPods-ZLITodo.a */; };
+		CB1FB2A019175C3B00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB29F19175C3B00403479 /* Foundation.framework */; };
+		CB1FB2A219175C3B00403479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB2A119175C3B00403479 /* CoreGraphics.framework */; };
+		CB1FB2A419175C3B00403479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB2A319175C3B00403479 /* UIKit.framework */; };
+		CB1FB2AA19175C3B00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2A819175C3B00403479 /* InfoPlist.strings */; };
+		CB1FB2AC19175C3B00403479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2AB19175C3B00403479 /* main.m */; };
+		CB1FB2B019175C3B00403479 /* ZLIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2AF19175C3B00403479 /* ZLIAppDelegate.m */; };
+		CB1FB2B219175C3B00403479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2B119175C3B00403479 /* Images.xcassets */; };
+		CB1FB2B919175C3C00403479 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB2B819175C3C00403479 /* XCTest.framework */; };
+		CB1FB2BA19175C3C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB29F19175C3B00403479 /* Foundation.framework */; };
+		CB1FB2BB19175C3C00403479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB2A319175C3B00403479 /* UIKit.framework */; };
+		CB1FB2C319175C3C00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2C119175C3C00403479 /* InfoPlist.strings */; };
+		CB1FB2C519175C3C00403479 /* ZLITodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2C419175C3C00403479 /* ZLITodoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1FB2BC19175C3C00403479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1FB29419175C3B00403479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1FB29B19175C3B00403479;
+			remoteInfo = ZLITodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31A4CD341C044D938F5D49E3 /* libPods-ZLITodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLITodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1FB29C19175C3B00403479 /* ZLITodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLITodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1FB29F19175C3B00403479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB1FB2A119175C3B00403479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB1FB2A319175C3B00403479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB1FB2A719175C3B00403479 /* ZLITodo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLITodo-Info.plist"; sourceTree = "<group>"; };
+		CB1FB2A919175C3B00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1FB2AB19175C3B00403479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1FB2AD19175C3B00403479 /* ZLITodo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLITodo-Prefix.pch"; sourceTree = "<group>"; };
+		CB1FB2AE19175C3B00403479 /* ZLIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLIAppDelegate.h; sourceTree = "<group>"; };
+		CB1FB2AF19175C3B00403479 /* ZLIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIAppDelegate.m; sourceTree = "<group>"; };
+		CB1FB2B119175C3B00403479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB1FB2B719175C3C00403479 /* ZLITodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLITodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1FB2B819175C3C00403479 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB1FB2C019175C3C00403479 /* ZLITodoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLITodoTests-Info.plist"; sourceTree = "<group>"; };
+		CB1FB2C219175C3C00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1FB2C419175C3C00403479 /* ZLITodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLITodoTests.m; sourceTree = "<group>"; };
+		F1939EE33E934FADAAE41059 /* Pods-ZLITodo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodo.xcconfig"; path = "Pods/Pods-ZLITodo.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1FB29919175C3B00403479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2A219175C3B00403479 /* CoreGraphics.framework in Frameworks */,
+				CB1FB2A419175C3B00403479 /* UIKit.framework in Frameworks */,
+				CB1FB2A019175C3B00403479 /* Foundation.framework in Frameworks */,
+				3C45D89B97F740F48F3AB12B /* libPods-ZLITodo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1FB2B419175C3C00403479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2B919175C3C00403479 /* XCTest.framework in Frameworks */,
+				CB1FB2BB19175C3C00403479 /* UIKit.framework in Frameworks */,
+				CB1FB2BA19175C3C00403479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1FB29319175C3B00403479 = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2A519175C3B00403479 /* ZLITodo */,
+				CB1FB2BE19175C3C00403479 /* ZLITodoTests */,
+				CB1FB29E19175C3B00403479 /* Frameworks */,
+				CB1FB29D19175C3B00403479 /* Products */,
+				F1939EE33E934FADAAE41059 /* Pods-ZLITodo.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1FB29D19175C3B00403479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB29C19175C3B00403479 /* ZLITodo.app */,
+				CB1FB2B719175C3C00403479 /* ZLITodoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1FB29E19175C3B00403479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB29F19175C3B00403479 /* Foundation.framework */,
+				CB1FB2A119175C3B00403479 /* CoreGraphics.framework */,
+				CB1FB2A319175C3B00403479 /* UIKit.framework */,
+				CB1FB2B819175C3C00403479 /* XCTest.framework */,
+				31A4CD341C044D938F5D49E3 /* libPods-ZLITodo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1FB2A519175C3B00403479 /* ZLITodo */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2AE19175C3B00403479 /* ZLIAppDelegate.h */,
+				CB1FB2AF19175C3B00403479 /* ZLIAppDelegate.m */,
+				CB1FB2B119175C3B00403479 /* Images.xcassets */,
+				CB1FB2A619175C3B00403479 /* Supporting Files */,
+			);
+			path = ZLITodo;
+			sourceTree = "<group>";
+		};
+		CB1FB2A619175C3B00403479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2A719175C3B00403479 /* ZLITodo-Info.plist */,
+				CB1FB2A819175C3B00403479 /* InfoPlist.strings */,
+				CB1FB2AB19175C3B00403479 /* main.m */,
+				CB1FB2AD19175C3B00403479 /* ZLITodo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1FB2BE19175C3C00403479 /* ZLITodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2C419175C3C00403479 /* ZLITodoTests.m */,
+				CB1FB2BF19175C3C00403479 /* Supporting Files */,
+			);
+			path = ZLITodoTests;
+			sourceTree = "<group>";
+		};
+		CB1FB2BF19175C3C00403479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2C019175C3C00403479 /* ZLITodoTests-Info.plist */,
+				CB1FB2C119175C3C00403479 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1FB29B19175C3B00403479 /* ZLITodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1FB2C819175C3C00403479 /* Build configuration list for PBXNativeTarget "ZLITodo" */;
+			buildPhases = (
+				C0670E77FB214ACEA52E4767 /* Check Pods Manifest.lock */,
+				CB1FB29819175C3B00403479 /* Sources */,
+				CB1FB29919175C3B00403479 /* Frameworks */,
+				CB1FB29A19175C3B00403479 /* Resources */,
+				6D9F4479B3DB4C39A3FAC1EA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLITodo;
+			productName = ZLITodo;
+			productReference = CB1FB29C19175C3B00403479 /* ZLITodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB1FB2B619175C3C00403479 /* ZLITodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1FB2CB19175C3C00403479 /* Build configuration list for PBXNativeTarget "ZLITodoTests" */;
+			buildPhases = (
+				CB1FB2B319175C3C00403479 /* Sources */,
+				CB1FB2B419175C3C00403479 /* Frameworks */,
+				CB1FB2B519175C3C00403479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1FB2BD19175C3C00403479 /* PBXTargetDependency */,
+			);
+			name = ZLITodoTests;
+			productName = ZLITodoTests;
+			productReference = CB1FB2B719175C3C00403479 /* ZLITodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1FB29419175C3B00403479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZLI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhou;
+				TargetAttributes = {
+					CB1FB2B619175C3C00403479 = {
+						TestTargetID = CB1FB29B19175C3B00403479;
+					};
+				};
+			};
+			buildConfigurationList = CB1FB29719175C3B00403479 /* Build configuration list for PBXProject "ZLITodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB1FB29319175C3B00403479;
+			productRefGroup = CB1FB29D19175C3B00403479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1FB29B19175C3B00403479 /* ZLITodo */,
+				CB1FB2B619175C3C00403479 /* ZLITodoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1FB29A19175C3B00403479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2AA19175C3B00403479 /* InfoPlist.strings in Resources */,
+				CB1FB2B219175C3B00403479 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1FB2B519175C3C00403479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2C319175C3C00403479 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D9F4479B3DB4C39A3FAC1EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ZLITodo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0670E77FB214ACEA52E4767 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1FB29819175C3B00403479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2B019175C3B00403479 /* ZLIAppDelegate.m in Sources */,
+				CB1FB2AC19175C3B00403479 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1FB2B319175C3C00403479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2C519175C3C00403479 /* ZLITodoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1FB2BD19175C3C00403479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1FB29B19175C3B00403479 /* ZLITodo */;
+			targetProxy = CB1FB2BC19175C3C00403479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1FB2A819175C3B00403479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1FB2A919175C3B00403479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB1FB2C119175C3C00403479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1FB2C219175C3C00403479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1FB2C619175C3C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1FB2C719175C3C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1FB2C919175C3C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1939EE33E934FADAAE41059 /* Pods-ZLITodo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
+				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB1FB2CA19175C3C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1939EE33E934FADAAE41059 /* Pods-ZLITodo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
+				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB1FB2CC19175C3C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLITodo.app/ZLITodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZLITodoTests/ZLITodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB1FB2CD19175C3C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLITodo.app/ZLITodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
+				INFOPLIST_FILE = "ZLITodoTests/ZLITodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1FB29719175C3B00403479 /* Build configuration list for PBXProject "ZLITodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB2C619175C3C00403479 /* Debug */,
+				CB1FB2C719175C3C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1FB2C819175C3C00403479 /* Build configuration list for PBXNativeTarget "ZLITodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB2C919175C3C00403479 /* Debug */,
+				CB1FB2CA19175C3C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1FB2CB19175C3C00403479 /* Build configuration list for PBXNativeTarget "ZLITodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB2CC19175C3C00403479 /* Debug */,
+				CB1FB2CD19175C3C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1FB29419175C3B00403479 /* Project object */;
+}
