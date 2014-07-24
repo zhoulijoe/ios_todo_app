@@ -2,6 +2,8 @@
 
 @interface ZLINetworkAssembly : TyphoonAssembly
 
+- (id)ZLINetworkAuthService;
+
 - (id)ZLINetworkTaskService;
 
 @end

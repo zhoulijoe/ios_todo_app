@@ -20,45 +20,150 @@ PODS:
   - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CocoaLumberjack (1.9.0):
+  - AFOAuth2Client (0.1.2):
+    - AFNetworking (~> 2.0)
+  - CocoaLumberjack (1.9.1):
     - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.9.0)
-  - CocoaLumberjack/Extensions (1.9.0):
+  - CocoaLumberjack/Core (1.9.1)
+  - CocoaLumberjack/Extensions (1.9.1):
     - CocoaLumberjack/Core
-  - Kiwi/ARC (2.2.4)
-  - Kiwi/NonARC (2.2.4)
-  - Kiwi/XCTest (2.2.4):
-    - Kiwi/ARC
-    - Kiwi/NonARC
+  - Kiwi (2.3.0)
   - Mantle (1.5):
     - Mantle/extobjc
   - Mantle/extobjc (1.5)
-  - Overcoat (1.2.1):
+  - Overcoat (2.0.2):
+    - Overcoat/NSURLSession
+  - Overcoat/Core (2.0.2):
     - AFNetworking (~> 2.0)
     - Mantle (~> 1.3)
-  - Typhoon (2.1.0):
+  - Overcoat/NSURLSession (2.0.2):
+    - Overcoat/Core
+  - Typhoon (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/Factory
+    - Typhoon/ios
     - Typhoon/no-arc
-  - Typhoon/no-arc (2.1.0)
+    - Typhoon/Test
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/Configuration (2.1.5):
+    - Typhoon/Configuration/ConfigPostProcessor
+    - Typhoon/Configuration/DefinitionOptionConfiguration
+    - Typhoon/Configuration/Resource
+    - Typhoon/Configuration/Startup
+    - Typhoon/Factory
+  - Typhoon/Configuration/ConfigPostProcessor (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Configuration/DefinitionOptionConfiguration (2.1.5):
+    - Typhoon/Configuration/DefinitionOptionConfiguration/Factory
+    - Typhoon/Factory
+  - Typhoon/Configuration/DefinitionOptionConfiguration/Factory (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Configuration/Resource (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Configuration/Startup (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Definition (2.1.5):
+    - Typhoon/Definition/Injections
+    - Typhoon/Definition/Internal
+    - Typhoon/Definition/Method
+    - Typhoon/Factory
+  - Typhoon/Definition/Injections (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Definition/Internal (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Definition/Method (2.1.5):
+    - Typhoon/Definition/Method/Internal
+    - Typhoon/Factory
+  - Typhoon/Definition/Method/Internal (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Factory (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/Factory/Block
+    - Typhoon/Factory/Hooks
+    - Typhoon/Factory/Internal
+    - Typhoon/Factory/Pool
+    - Typhoon/no-arc
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/Factory/Block (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/no-arc
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/Factory/Hooks (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/no-arc
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/Factory/Internal (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/no-arc
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/Factory/Pool (2.1.5):
+    - Typhoon/Configuration
+    - Typhoon/Definition
+    - Typhoon/Factory
+    - Typhoon/no-arc
+    - Typhoon/TypeConversion
+    - Typhoon/Utils
+  - Typhoon/ios (2.1.5):
+    - Typhoon/Factory
+    - Typhoon/ios/Configuration
+    - Typhoon/ios/Storyboard
+    - Typhoon/ios/TypeConversion
+  - Typhoon/ios/Configuration (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/ios/Storyboard (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/ios/TypeConversion (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/no-arc (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Test (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/TypeConversion (2.1.5):
+    - Typhoon/Factory
+    - Typhoon/TypeConversion/Converters
+  - Typhoon/TypeConversion/Converters (2.1.5):
+    - Typhoon/Factory
+  - Typhoon/Utils (2.1.5):
+    - Typhoon/Factory
   - ZLIUtils (0.0.1):
     - CocoaLumberjack
     - Typhoon
 
 DEPENDENCIES:
-  - Kiwi/XCTest
+  - AFOAuth2Client (from `../AFOAuth2Client`)
+  - Kiwi
   - Overcoat
   - ZLIUtils (from `../ios_utils`)
 
 EXTERNAL SOURCES:
+  AFOAuth2Client:
+    :path: ../AFOAuth2Client
   ZLIUtils:
     :path: ../ios_utils
 
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
-  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
-  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  AFOAuth2Client: 9f5ecaf899ee5d65f99d6ef4de1e30d656c4cb27
+  CocoaLumberjack: 94accd5749f5c5d15134c8d50f34a973aed8ef69
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
   Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
-  Overcoat: fe709e4de619dc0465bb84f9ff22eee8db8e2bf8
-  Typhoon: 5af23b4d01c3aee0f3ba72464a1d92e7f93b3552
+  Overcoat: a9504cd1f0389641526ba1784592503c012c4b5f
+  Typhoon: c7c9d3e6e89f7177331504308f99c58d0b1a91b5
   ZLIUtils: 8cdb7d4f29ef9ad3c744043c5697dc7bd25bdc88
 
 COCOAPODS: 0.33.1

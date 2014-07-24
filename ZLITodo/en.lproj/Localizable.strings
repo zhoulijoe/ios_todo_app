@@ -1,0 +1,6 @@
+// General
+"alert.button.cancel" = "Ok";
+
+// Login
+"login.error.emptyInput" = "Please enter username and password";
+"login.error.auth" = "Invalid credentials";

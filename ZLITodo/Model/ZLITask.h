@@ -3,10 +3,11 @@
 
 @interface ZLITask : MTLModel <MTLJSONSerializing>
 
-@property (assign, nonatomic) NSInteger ID;
+@property (strong, nonatomic) NSString *ID;
+@property (strong, nonatomic) NSString *userId;
 @property (strong, nonatomic) NSString *description;
 @property (assign, nonatomic) BOOL complete;
 
-- (instancetype)initWithID:(NSInteger)ID description:(NSString *)description complete:(BOOL)complete;
+- (instancetype)initWithID:(NSString *)ID description:(NSString *)description complete:(BOOL)complete;
 
 @end

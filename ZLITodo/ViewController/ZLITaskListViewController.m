@@ -13,9 +13,17 @@
 {
     [super viewDidLoad];
 
+    __weak __typeof__(self) weakSelf = self;
     [self.taskService getTasks:^(NSArray *tasks, NSError *error) {
-        self.tasks = tasks;
-        [self.tableView reloadData];
+        __typeof__(self) strongSelf = weakSelf;
+
+        if (error) {
+            [strongSelf showError];
+            return;
+        }
+
+        strongSelf.tasks = tasks;
+        [strongSelf.tableView reloadData];
     }];
 }
 

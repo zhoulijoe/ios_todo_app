@@ -1,14 +1,47 @@
 #import "ZLINetworkAssembly.h"
 
 #import "ZLINetworkTaskService.h"
+#import "ZLINetworkTokenStore.h"
+#import "ZLINetworkAuthService.h"
 
 @implementation ZLINetworkAssembly
+
+- (id)ZLINetworkTokenStore {
+    return [TyphoonDefinition withClass:[ZLINetworkTokenStore class] configuration:^(TyphoonDefinition *definition) {
+        definition.scope = TyphoonScopeSingleton;
+    }];
+}
+
+- (id)ZLINetworkBaseService {
+    return [TyphoonDefinition withClass:[ZLINetworkBaseService class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(tokenStore) with:[self ZLINetworkTokenStore]];
+    }];
+};
+
+- (id)ZLINetworkAuthService {
+    return [TyphoonDefinition withClass:[ZLINetworkAuthService class] configuration:^(TyphoonDefinition *definition) {
+        definition.scope = TyphoonScopeSingleton;
+
+        [definition useInitializer:@selector(initWithBaseURL:clientID:secret:)
+                        parameters:^(TyphoonMethod *initializer) {
+            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://192.168.1.19/todo/"]];
+            [initializer injectParameter:@"clientID" with:@"todo-client"];
+            [initializer injectParameter:@"secret" with:@"secret"];
+        }];
+
+        [definition injectProperty:@selector(tokenStore) with:[self ZLINetworkTokenStore]];
+    }];
+}
 
 - (id)ZLINetworkTaskService {
     return [TyphoonDefinition withClass:[ZLINetworkTaskService class]
                           configuration:^(TyphoonDefinition *definition) {
-        [definition useInitializer:@selector(initWithBaseURL:) parameters:^(TyphoonMethod *initializer) {
-            [initializer injectParameterWith:[NSURL URLWithString:@"http://localhost:8080/"]];
+        definition.scope = TyphoonScopeSingleton;
+        definition.parent = [self ZLINetworkBaseService];
+
+        [definition useInitializer:@selector(initWithBaseURL:)
+                        parameters:^(TyphoonMethod *initializer) {
+            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://192.168.1.19/todo/"]];
         }];
     }];
 }

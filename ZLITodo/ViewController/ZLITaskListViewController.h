@@ -1,6 +1,7 @@
 #import "ZLINetworkTaskService.h"
+#import "ZLIBaseTableViewController.h"
 
-@interface ZLITaskListViewController : UITableViewController
+@interface ZLITaskListViewController : ZLIBaseTableViewController
 
 @property (strong, nonatomic) ZLINetworkTaskService *taskService;
 

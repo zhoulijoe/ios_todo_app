@@ -4,11 +4,16 @@
 
 @implementation ZLINetworkTaskService
 
++ (NSDictionary *)modelClassesByResourcePath {
+    return @{
+        @"task" : [ZLITask class]
+    };
+}
+
 - (void)getTasks:(void (^)(NSArray *tasks, NSError *error))completionBlock {
-    [self GET:@"tasks" parameters:nil resultClass:[ZLITask class] resultKeyPath:nil
-   completion:^(AFHTTPRequestOperation *operation, id responseObject, NSError *error) {
-        completionBlock((NSArray *)responseObject, error);
-   }];
+    [self GET:@"task" parameters:nil completion:^(id response, NSError *error) {
+        completionBlock(((OVCResponse *)response).result, error);
+    }];
 }
 
 @end

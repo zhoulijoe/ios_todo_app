@@ -1,6 +1,6 @@
-#import <Overcoat/OVCClient.h>
+#import "ZLINetworkBaseService.h"
 
-@interface ZLINetworkTaskService : OVCClient
+@interface ZLINetworkTaskService : ZLINetworkBaseService
 
 - (void)getTasks:(void (^)(NSArray *tasks, NSError *error))completionBlock;
 

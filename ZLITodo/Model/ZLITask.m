@@ -2,7 +2,7 @@
 
 @implementation ZLITask
 
-- (instancetype)initWithID:(NSInteger)ID description:(NSString *)description complete:(BOOL)complete {
+- (instancetype)initWithID:(NSString *)ID description:(NSString *)description complete:(BOOL)complete {
     self = [super init];
     if (self) {
         _ID = ID;
@@ -15,6 +15,7 @@
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
         @"ID": @"id",
+        @"userId" : @"userId",
         @"description": @"description",
         @"complete": @"complete"
     };
