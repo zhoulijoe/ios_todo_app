@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37BD10DD1C0D41108F8DAB39 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC66A64F43D4737AE9AD3AE /* libPods.a */; };
+		3909928CA8E0FABB9F1DFA9B /* ZLITasksContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 390998E227DBDB3D94A801E1 /* ZLITasksContainer.m */; };
 		3909931F99144E27EDCECC0B /* ZLINetworkBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 39099F6AD937FC40F80557FB /* ZLINetworkBaseService.m */; };
 		3909947DB61B6853ADB43E4B /* ZLINetworkAuthService.m in Sources */ = {isa = PBXBuildFile; fileRef = 390992108C8718AE97B4677B /* ZLINetworkAuthService.m */; };
 		390995322EB0EF387FF7BD42 /* ZLIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390995FB43C40A477EF1F75A /* ZLIBaseViewController.m */; };
@@ -50,12 +51,14 @@
 		0AC66A64F43D4737AE9AD3AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.xcconfig"; path = "Pods/Pods-ZLITodoTests.xcconfig"; sourceTree = "<group>"; };
 		31A4CD341C044D938F5D49E3 /* libPods-ZLITodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLITodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390990FE99F6D0C3383480CA /* ZLITasksContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITasksContainer.h; sourceTree = "<group>"; };
 		390992108C8718AE97B4677B /* ZLINetworkAuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkAuthService.m; sourceTree = "<group>"; };
 		3909935654DF5DC2E35053DA /* ZLINetworkAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkAuthService.h; sourceTree = "<group>"; };
 		390993F33373849486C49D3F /* ZLIBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIBaseTableViewController.h; sourceTree = "<group>"; };
 		39099480B7E666DE3D097E68 /* ZLINetworkTokenStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkTokenStore.h; sourceTree = "<group>"; };
 		390995621DB24BEC68EEF071 /* ZLINetworkTokenStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkTokenStore.m; sourceTree = "<group>"; };
 		390995FB43C40A477EF1F75A /* ZLIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIBaseViewController.m; sourceTree = "<group>"; };
+		390998E227DBDB3D94A801E1 /* ZLITasksContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLITasksContainer.m; sourceTree = "<group>"; };
 		39099B7134C67A67659DF92A /* ZLIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIBaseViewController.h; sourceTree = "<group>"; };
 		39099C2B3F58A0CB4A21F950 /* ZLIBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIBaseTableViewController.m; sourceTree = "<group>"; };
 		39099F65BB6FA9F15E74A5D9 /* ZLINetworkBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkBaseService.h; sourceTree = "<group>"; };
@@ -257,6 +260,8 @@
 			children = (
 				CBD4535D194AE2F30004B402 /* ZLITask.h */,
 				CBD4535E194AE2F30004B402 /* ZLITask.m */,
+				390998E227DBDB3D94A801E1 /* ZLITasksContainer.m */,
+				390990FE99F6D0C3383480CA /* ZLITasksContainer.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -439,6 +444,7 @@
 				3909947DB61B6853ADB43E4B /* ZLINetworkAuthService.m in Sources */,
 				390995322EB0EF387FF7BD42 /* ZLIBaseViewController.m in Sources */,
 				39099D37E7019447E5073A7D /* ZLIBaseTableViewController.m in Sources */,
+				3909928CA8E0FABB9F1DFA9B /* ZLITasksContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +577,7 @@
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Local_Debug;
@@ -586,6 +593,7 @@
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Local_Release;
@@ -682,6 +690,7 @@
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Mock_Debug;
