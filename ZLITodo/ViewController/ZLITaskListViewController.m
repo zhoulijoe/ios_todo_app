@@ -43,7 +43,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
 
     ZLITask *task = [self.tasks objectAtIndex:indexPath.row];
-    cell.textLabel.text = task.description;
+    cell.textLabel.text = task.desc;
 
     if (task.complete) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;

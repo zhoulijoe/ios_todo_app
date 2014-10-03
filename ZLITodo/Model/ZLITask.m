@@ -2,11 +2,11 @@
 
 @implementation ZLITask
 
-- (instancetype)initWithID:(NSString *)ID description:(NSString *)description complete:(BOOL)complete {
+- (instancetype)initWithID:(NSString *)ID desc:(NSString *)desc complete:(BOOL)complete {
     self = [super init];
     if (self) {
         _ID = ID;
-        _description = description;
+        _desc = desc;
         _complete = complete;
     }
     return self;
@@ -16,7 +16,7 @@
     return @{
         @"ID": @"id",
         @"userId" : @"userId",
-        @"description": @"description",
+        @"desc": @"description",
         @"complete": @"complete"
     };
 }

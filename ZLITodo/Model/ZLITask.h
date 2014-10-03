@@ -5,9 +5,9 @@
 
 @property (strong, nonatomic) NSString *ID;
 @property (strong, nonatomic) NSString *userId;
-@property (strong, nonatomic) NSString *description;
+@property (strong, nonatomic) NSString *desc;
 @property (assign, nonatomic) BOOL complete;
 
-- (instancetype)initWithID:(NSString *)ID description:(NSString *)description complete:(BOOL)complete;
+- (instancetype)initWithID:(NSString *)ID desc:(NSString *)desc complete:(BOOL)complete;
 
 @end
