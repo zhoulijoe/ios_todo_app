@@ -12,4 +12,12 @@
     return self;
 }
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+        @"ID": @"id",
+        @"description": @"description",
+        @"complete": @"complete"
+    };
+}
+
 @end

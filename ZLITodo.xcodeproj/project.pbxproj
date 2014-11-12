@@ -20,7 +20,10 @@
 		CB1FB2BA19175C3C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB29F19175C3B00403479 /* Foundation.framework */; };
 		CB1FB2BB19175C3C00403479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB2A319175C3B00403479 /* UIKit.framework */; };
 		CB1FB2C319175C3C00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2C119175C3C00403479 /* InfoPlist.strings */; };
-		CB1FB2C519175C3C00403479 /* ZLIConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2C419175C3C00403479 /* ZLIConfigurationTests.m */; };
+		CB53DE35194C19B400D6A4AC /* ZLIViewControllerAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE34194C19B400D6A4AC /* ZLIViewControllerAssembly.m */; };
+		CB53DE38194C26F900D6A4AC /* ZLINetworkTaskService.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE37194C26F900D6A4AC /* ZLINetworkTaskService.m */; };
+		CB53DE3B194C29E500D6A4AC /* ZLINetworkAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE3A194C29E500D6A4AC /* ZLINetworkAssembly.m */; };
+		CB53DE3D194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE3C194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m */; };
 		CBD45358194AD9BC0004B402 /* Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD45357194AD9BC0004B402 /* Task.storyboard */; };
 		CBD4535B194ADA490004B402 /* ZLITaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4535A194ADA490004B402 /* ZLITaskListViewController.m */; };
 		CBD4535F194AE2F30004B402 /* ZLITask.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4535E194AE2F30004B402 /* ZLITask.m */; };
@@ -56,6 +59,13 @@
 		CB1FB2C019175C3C00403479 /* ZLITodoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLITodoTests-Info.plist"; sourceTree = "<group>"; };
 		CB1FB2C219175C3C00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB1FB2C419175C3C00403479 /* ZLIConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIConfigurationTests.m; sourceTree = "<group>"; };
+		CB53DE33194C19B400D6A4AC /* ZLIViewControllerAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIViewControllerAssembly.h; sourceTree = "<group>"; };
+		CB53DE34194C19B400D6A4AC /* ZLIViewControllerAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIViewControllerAssembly.m; sourceTree = "<group>"; };
+		CB53DE36194C26F900D6A4AC /* ZLINetworkTaskService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkTaskService.h; sourceTree = "<group>"; };
+		CB53DE37194C26F900D6A4AC /* ZLINetworkTaskService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkTaskService.m; sourceTree = "<group>"; };
+		CB53DE39194C29E500D6A4AC /* ZLINetworkAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkAssembly.h; sourceTree = "<group>"; };
+		CB53DE3A194C29E500D6A4AC /* ZLINetworkAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkAssembly.m; sourceTree = "<group>"; };
+		CB53DE3C194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkTaskServiceTest.m; sourceTree = "<group>"; };
 		CBD45357194AD9BC0004B402 /* Task.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Task.storyboard; sourceTree = "<group>"; };
 		CBD45359194ADA490004B402 /* ZLITaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITaskListViewController.h; sourceTree = "<group>"; };
 		CBD4535A194ADA490004B402 /* ZLITaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLITaskListViewController.m; sourceTree = "<group>"; };
@@ -129,6 +139,7 @@
 		CB1FB2A519175C3B00403479 /* ZLITodo */ = {
 			isa = PBXGroup;
 			children = (
+				CB53DE32194C161800D6A4AC /* Assembly */,
 				CBD4535C194AE2A60004B402 /* Model */,
 				CBD45354194AD91B0004B402 /* Network */,
 				CBD45355194AD91B0004B402 /* Storyboard */,
@@ -157,6 +168,7 @@
 			children = (
 				CB1FB2C419175C3C00403479 /* ZLIConfigurationTests.m */,
 				CB1FB2BF19175C3C00403479 /* Supporting Files */,
+				CB53DE3C194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m */,
 			);
 			path = ZLITodoTests;
 			sourceTree = "<group>";
@@ -170,9 +182,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB53DE32194C161800D6A4AC /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CB53DE33194C19B400D6A4AC /* ZLIViewControllerAssembly.h */,
+				CB53DE34194C19B400D6A4AC /* ZLIViewControllerAssembly.m */,
+				CB53DE39194C29E500D6A4AC /* ZLINetworkAssembly.h */,
+				CB53DE3A194C29E500D6A4AC /* ZLINetworkAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		CBD45354194AD91B0004B402 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				CB53DE36194C26F900D6A4AC /* ZLINetworkTaskService.h */,
+				CB53DE37194C26F900D6A4AC /* ZLINetworkTaskService.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -369,8 +394,11 @@
 			files = (
 				CB1FB2B019175C3B00403479 /* ZLIAppDelegate.m in Sources */,
 				CB1FB2AC19175C3B00403479 /* main.m in Sources */,
+				CB53DE35194C19B400D6A4AC /* ZLIViewControllerAssembly.m in Sources */,
 				CBD4535F194AE2F30004B402 /* ZLITask.m in Sources */,
+				CB53DE3B194C29E500D6A4AC /* ZLINetworkAssembly.m in Sources */,
 				CBD4535B194ADA490004B402 /* ZLITaskListViewController.m in Sources */,
+				CB53DE38194C26F900D6A4AC /* ZLINetworkTaskService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1FB2C519175C3C00403479 /* ZLIConfigurationTests.m in Sources */,
+				CB53DE3D194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

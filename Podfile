@@ -8,6 +8,8 @@ else
     pod 'ZLIUtils', :git => 'https://github.com/zhoulijoe/ios_utils.git', :branch => ‘develop’
 end
 
+pod 'Overcoat'
+
 target :ZLITodoTests, :exclusive => true do
     pod 'Kiwi/XCTest'
 end

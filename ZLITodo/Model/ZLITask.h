@@ -1,4 +1,7 @@
-@interface ZLITask : NSObject
+#import <Mantle/MTLModel.h>
+#import <Mantle/MTLJSONAdapter.h>
+
+@interface ZLITask : MTLModel <MTLJSONSerializing>
 
 @property (assign, nonatomic) NSInteger ID;
 @property (strong, nonatomic) NSString *description;

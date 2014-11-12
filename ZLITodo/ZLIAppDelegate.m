@@ -1,14 +1,23 @@
 #import "ZLIAppDelegate.h"
 
+#import "ZLIViewControllerAssembly.h"
+#import "ZLINetworkAssembly.h"
+
 @implementation ZLIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.factory = [TyphoonBlockComponentFactory factoryWithAssemblies:@[
+        [ZLIViewControllerAssembly assembly],
+        [ZLINetworkAssembly assembly]
+    ]];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
 
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Task" bundle:nil];
+    TyphoonStoryboard *sb = [TyphoonStoryboard storyboardWithName:@"Task" factory:self.factory bundle:nil];
+
     UIViewController *rootVC = [sb instantiateInitialViewController];
     self.window.rootViewController = rootVC;
 
