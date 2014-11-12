@@ -1,0 +1,21 @@
+PODS:
+  - CocoaLumberjack (1.8.1):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.8.1)
+  - CocoaLumberjack/Extensions (1.8.1):
+    - CocoaLumberjack/Core
+  - ZLIUtils (0.0.1):
+    - CocoaLumberjack (~> 1.8.1)
+
+DEPENDENCIES:
+  - ZLIUtils (from `../ios_utils`)
+
+EXTERNAL SOURCES:
+  ZLIUtils:
+    :path: ../ios_utils
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
+  ZLIUtils: 013e61dd800e2521525475a533dfe47ec3ec6328
+
+COCOAPODS: 0.32.1
