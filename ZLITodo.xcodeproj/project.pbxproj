@@ -49,8 +49,9 @@
 
 /* Begin PBXFileReference section */
 		0AC66A64F43D4737AE9AD3AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.xcconfig"; path = "Pods/Pods-ZLITodoTests.xcconfig"; sourceTree = "<group>"; };
+		28EE54F0051ECE059A652D5A /* Pods.local_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.local_release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.local_release.xcconfig"; sourceTree = "<group>"; };
 		31A4CD341C044D938F5D49E3 /* libPods-ZLITodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLITodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B83C2AE9CA3BD90D21C106 /* Pods.local_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.local_debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.local_debug.xcconfig"; sourceTree = "<group>"; };
 		390990FE99F6D0C3383480CA /* ZLITasksContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITasksContainer.h; sourceTree = "<group>"; };
 		390992108C8718AE97B4677B /* ZLINetworkAuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkAuthService.m; sourceTree = "<group>"; };
 		3909935654DF5DC2E35053DA /* ZLINetworkAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkAuthService.h; sourceTree = "<group>"; };
@@ -63,6 +64,9 @@
 		39099C2B3F58A0CB4A21F950 /* ZLIBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIBaseTableViewController.m; sourceTree = "<group>"; };
 		39099F65BB6FA9F15E74A5D9 /* ZLINetworkBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkBaseService.h; sourceTree = "<group>"; };
 		39099F6AD937FC40F80557FB /* ZLINetworkBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkBaseService.m; sourceTree = "<group>"; };
+		4CCB98CF3B4AD55C450D4350 /* Pods.mock_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.mock_debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.mock_debug.xcconfig"; sourceTree = "<group>"; };
+		6D8E8FA341E0AAA0AB6849D8 /* Pods-ZLITodoTests.local_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.local_debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests.local_debug.xcconfig"; sourceTree = "<group>"; };
+		B750EF6D835BBADF427DB780 /* Pods-ZLITodoTests.local_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.local_release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests.local_release.xcconfig"; sourceTree = "<group>"; };
 		CB04489E1979138000887485 /* ZLILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLILoginViewController.h; sourceTree = "<group>"; };
 		CB04489F1979138000887485 /* ZLILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLILoginViewController.m; sourceTree = "<group>"; };
 		CB1FB29C19175C3B00403479 /* ZLITodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLITodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +99,7 @@
 		CBD4535D194AE2F30004B402 /* ZLITask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITask.h; sourceTree = "<group>"; };
 		CBD4535E194AE2F30004B402 /* ZLITask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLITask.m; sourceTree = "<group>"; };
 		D40C44D6A20942009D011962 /* libPods-ZLITodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLITodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF0044985A1D424591A94406 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F123A9E372E4467FA063F695 /* Pods-ZLITodoTests.mock_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.mock_debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests.mock_debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05199841FED79C74A71F274C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35B83C2AE9CA3BD90D21C106 /* Pods.local_debug.xcconfig */,
+				4CCB98CF3B4AD55C450D4350 /* Pods.mock_debug.xcconfig */,
+				28EE54F0051ECE059A652D5A /* Pods.local_release.xcconfig */,
+				6D8E8FA341E0AAA0AB6849D8 /* Pods-ZLITodoTests.local_debug.xcconfig */,
+				F123A9E372E4467FA063F695 /* Pods-ZLITodoTests.mock_debug.xcconfig */,
+				B750EF6D835BBADF427DB780 /* Pods-ZLITodoTests.local_release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB1FB29319175C3B00403479 = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +148,7 @@
 				CB1FB2BE19175C3C00403479 /* ZLITodoTests */,
 				CB1FB29E19175C3B00403479 /* Frameworks */,
 				CB1FB29D19175C3B00403479 /* Products */,
-				DF0044985A1D424591A94406 /* Pods.xcconfig */,
-				13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */,
+				05199841FED79C74A71F274C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -333,6 +349,8 @@
 			mainGroup = CB1FB29319175C3B00403479;
 			productRefGroup = CB1FB29D19175C3B00403479 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				CB1FB29B19175C3B00403479 /* ZLITodo */,
@@ -376,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ZLITodoTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60C566FF3C4C4535BD836143 /* Check Pods Manifest.lock */ = {
@@ -406,7 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C0670E77FB214ACEA52E4767 /* Check Pods Manifest.lock */ = {
@@ -568,7 +586,7 @@
 		};
 		CB1FB2C919175C3C00403479 /* Local_Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF0044985A1D424591A94406 /* Pods.xcconfig */;
+			baseConfigurationReference = 35B83C2AE9CA3BD90D21C106 /* Pods.local_debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -576,6 +594,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
@@ -584,7 +603,7 @@
 		};
 		CB1FB2CA19175C3C00403479 /* Local_Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF0044985A1D424591A94406 /* Pods.xcconfig */;
+			baseConfigurationReference = 28EE54F0051ECE059A652D5A /* Pods.local_release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -592,6 +611,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
@@ -600,7 +620,7 @@
 		};
 		CB1FB2CC19175C3C00403479 /* Local_Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */;
+			baseConfigurationReference = 6D8E8FA341E0AAA0AB6849D8 /* Pods-ZLITodoTests.local_debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLITodo.app/ZLITodo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -623,7 +643,7 @@
 		};
 		CB1FB2CD19175C3C00403479 /* Local_Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */;
+			baseConfigurationReference = B750EF6D835BBADF427DB780 /* Pods-ZLITodoTests.local_release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLITodo.app/ZLITodo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -681,7 +701,7 @@
 		};
 		CBB79AF91921FD240082FBAB /* Mock_Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF0044985A1D424591A94406 /* Pods.xcconfig */;
+			baseConfigurationReference = 4CCB98CF3B4AD55C450D4350 /* Pods.mock_debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -689,6 +709,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLITodo/ZLITodo-Prefix.pch";
 				INFOPLIST_FILE = "ZLITodo/ZLITodo-Info.plist";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
@@ -697,7 +718,7 @@
 		};
 		CBB79AFA1921FD240082FBAB /* Mock_Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13FD8B4A2D2E481AB454D5C3 /* Pods-ZLITodoTests.xcconfig */;
+			baseConfigurationReference = F123A9E372E4467FA063F695 /* Pods-ZLITodoTests.mock_debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLITodo.app/ZLITodo";
 				FRAMEWORK_SEARCH_PATHS = (

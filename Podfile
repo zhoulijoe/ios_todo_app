@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '7.1'
 
 xcodeproj 'ZLITodo', 'Local_Release' => :release, 'Mock_Debug' => :debug, 'Local_Debug' => :debug

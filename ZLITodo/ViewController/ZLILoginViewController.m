@@ -45,7 +45,7 @@
 }
 
 - (void)showLoginError:(NSString *)message {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
                                                     message:message
                                                    delegate:self
                                           cancelButtonTitle:NSLocalizedString(@"alert.button.cancel", nil)

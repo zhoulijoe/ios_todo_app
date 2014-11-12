@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a22-fD-KWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1" y="648"/>
+            <point key="canvasLocation" x="-4" y="648"/>
         </scene>
         <!--Task List View Controller - Tasks-->
         <scene sceneID="prA-JU-Wok">

@@ -24,7 +24,7 @@
 
         [definition useInitializer:@selector(initWithBaseURL:clientID:secret:)
                         parameters:^(TyphoonMethod *initializer) {
-            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://192.168.1.3/todo/"]];
+            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://10.20.1.2/todo/"]];
             [initializer injectParameter:@"clientID" with:@"todo-client"];
             [initializer injectParameter:@"secret" with:@"secret"];
         }];
@@ -41,7 +41,7 @@
 
         [definition useInitializer:@selector(initWithBaseURL:)
                         parameters:^(TyphoonMethod *initializer) {
-            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://192.168.1.3/todo/"]];
+            [initializer injectParameter:@"baseURL" with:[NSURL URLWithString:@"http://10.20.1.2/todo/"]];
         }];
     }];
 }
