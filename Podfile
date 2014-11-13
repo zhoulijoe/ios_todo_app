@@ -16,7 +16,7 @@ else
     pod 'AFOAuth2Client', :git => 'https://github.com/zhoulijoe/AFOAuth2Client.git', :branch => 'develop'
 end
 
-pod 'Overcoat'
+pod 'Overcoat/ReactiveCocoa'
 
 target :ZLITodoTests, :exclusive => true do
     pod 'Kiwi'
