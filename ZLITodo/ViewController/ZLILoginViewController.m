@@ -11,12 +11,17 @@
 @property(nonatomic, weak) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginButton;
 
+
 @end
 
 @implementation ZLILoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIColor *disabledTextColor = [UIColor colorWithRed:.6 green:.9 blue:1 alpha:1];
+    UIColor *defaultBgColor = [UIColor colorWithRed:.34 green:.84 blue:1 alpha:1];
+    [self.loginButton setTitleColor:defaultBgColor forState:UIControlStateDisabled];
     
     RACSignal *validUsernameSignal =
     [self.usernameTextField.rac_textSignal
@@ -30,16 +35,17 @@
          return @([self isValidPassword:text]);
      }];
     
+    
     RAC(self.passwordTextField, backgroundColor) =
     [validPasswordSignal
      map:^id(NSNumber *passwordValid) {
-         return [passwordValid boolValue] ? [UIColor whiteColor] : [UIColor yellowColor];
+         return [passwordValid boolValue] ? [UIColor whiteColor] : disabledTextColor;
      }];
     
     RAC(self.usernameTextField, backgroundColor) =
     [validUsernameSignal
      map:^id(NSNumber *passwordValid) {
-         return [passwordValid boolValue] ? [UIColor whiteColor] : [UIColor yellowColor];
+         return [passwordValid boolValue] ? [UIColor whiteColor] : disabledTextColor;
      }];
     
     RACSignal *signUpActiveSignal =
