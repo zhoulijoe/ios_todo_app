@@ -14,6 +14,7 @@
 		390995322EB0EF387FF7BD42 /* ZLIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390995FB43C40A477EF1F75A /* ZLIBaseViewController.m */; };
 		39099ADB582AA92EE96C8CE7 /* ZLINetworkTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 390995621DB24BEC68EEF071 /* ZLINetworkTokenStore.m */; };
 		39099D37E7019447E5073A7D /* ZLIBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39099C2B3F58A0CB4A21F950 /* ZLIBaseTableViewController.m */; };
+		8068441E1A1732AF006D69A8 /* Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8068441D1A1732AF006D69A8 /* Task.storyboard */; };
 		B4AE34087FC74D63AA1B9C15 /* libPods-ZLITodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C44D6A20942009D011962 /* libPods-ZLITodoTests.a */; };
 		CB0448A01979138000887485 /* ZLILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04489F1979138000887485 /* ZLILoginViewController.m */; };
 		CB1FB2A019175C3B00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB29F19175C3B00403479 /* Foundation.framework */; };
@@ -32,7 +33,6 @@
 		CB53DE3B194C29E500D6A4AC /* ZLINetworkAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE3A194C29E500D6A4AC /* ZLINetworkAssembly.m */; };
 		CB53DE3D194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53DE3C194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m */; };
 		CBB37BBA197A4B000026B146 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBB37BBC197A4B000026B146 /* Localizable.strings */; };
-		CBD45358194AD9BC0004B402 /* Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD45357194AD9BC0004B402 /* Task.storyboard */; };
 		CBD4535B194ADA490004B402 /* ZLITaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4535A194ADA490004B402 /* ZLITaskListViewController.m */; };
 		CBD4535F194AE2F30004B402 /* ZLITask.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4535E194AE2F30004B402 /* ZLITask.m */; };
 /* End PBXBuildFile section */
@@ -66,6 +66,7 @@
 		39099F6AD937FC40F80557FB /* ZLINetworkBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkBaseService.m; sourceTree = "<group>"; };
 		4CCB98CF3B4AD55C450D4350 /* Pods.mock_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.mock_debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.mock_debug.xcconfig"; sourceTree = "<group>"; };
 		6D8E8FA341E0AAA0AB6849D8 /* Pods-ZLITodoTests.local_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.local_debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests.local_debug.xcconfig"; sourceTree = "<group>"; };
+		8068441D1A1732AF006D69A8 /* Task.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Task.storyboard; sourceTree = "<group>"; };
 		B750EF6D835BBADF427DB780 /* Pods-ZLITodoTests.local_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLITodoTests.local_release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLITodoTests/Pods-ZLITodoTests.local_release.xcconfig"; sourceTree = "<group>"; };
 		CB04489E1979138000887485 /* ZLILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLILoginViewController.h; sourceTree = "<group>"; };
 		CB04489F1979138000887485 /* ZLILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLILoginViewController.m; sourceTree = "<group>"; };
@@ -93,7 +94,6 @@
 		CB53DE3A194C29E500D6A4AC /* ZLINetworkAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkAssembly.m; sourceTree = "<group>"; };
 		CB53DE3C194C2F6700D6A4AC /* ZLINetworkTaskServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkTaskServiceTest.m; sourceTree = "<group>"; };
 		CBB37BBB197A4B000026B146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CBD45357194AD9BC0004B402 /* Task.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Task.storyboard; sourceTree = "<group>"; };
 		CBD45359194ADA490004B402 /* ZLITaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITaskListViewController.h; sourceTree = "<group>"; };
 		CBD4535A194ADA490004B402 /* ZLITaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLITaskListViewController.m; sourceTree = "<group>"; };
 		CBD4535D194AE2F30004B402 /* ZLITask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLITask.h; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 		CBD45355194AD91B0004B402 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				CBD45357194AD9BC0004B402 /* Task.storyboard */,
+				8068441D1A1732AF006D69A8 /* Task.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -349,8 +349,6 @@
 			mainGroup = CB1FB29319175C3B00403479;
 			productRefGroup = CB1FB29D19175C3B00403479 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				CB1FB29B19175C3B00403479 /* ZLITodo */,
@@ -365,7 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1FB2AA19175C3B00403479 /* InfoPlist.strings in Resources */,
-				CBD45358194AD9BC0004B402 /* Task.storyboard in Resources */,
+				8068441E1A1732AF006D69A8 /* Task.storyboard in Resources */,
 				CB1FB2B219175C3B00403479 /* Images.xcassets in Resources */,
 				CBB37BBA197A4B000026B146 /* Localizable.strings in Resources */,
 			);
